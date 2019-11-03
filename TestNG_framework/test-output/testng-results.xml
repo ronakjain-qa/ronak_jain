@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+      <class name="testcases.ApplicationTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="beforesuite" is-config="true" duration-ms="15" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="beforetest" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="login" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="dopasswordchange()[pri:1, instance:testcases.ApplicationTest@5034c75a]" name="dopasswordchange" duration-ms="0" started-at="2019-06-17T18:11:54Z" depends-on-methods="testcases.ApplicationTest.login" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dopasswordchange -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="aftertest" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:testcases.ApplicationTest@5034c75a]" name="logout" duration-ms="0" started-at="2019-06-17T18:11:54Z" depends-on-methods="testcases.ApplicationTest.dopasswordchange, testcases.ApplicationTest.login" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testcases.ApplicationTest@5034c75a]" name="aftersuite" is-config="true" duration-ms="0" started-at="2019-06-17T18:11:54Z" finished-at="2019-06-17T18:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testcases.ApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+ApplicationUrl=http://127.0.0.1/orangehrm/symfony/web/index.php/auth/login
+weblementlocatorusername=//input[@id='txtUsername']
+weblementlocatorpassword=//input[@id='txtPassword']
+loginbuttonlocator=//input[@id='btnLogin']

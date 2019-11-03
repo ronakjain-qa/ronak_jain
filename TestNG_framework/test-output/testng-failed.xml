@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="dopasswordchange"/>
+          <include name="aftermethod"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
